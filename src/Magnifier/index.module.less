@@ -1,0 +1,91 @@
+.containerLeft {
+  width: 350px;
+  margin-right: 48px;
+}
+
+.coverBox {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #40a9ff;
+  position: relative;
+  margin-bottom: 16px;
+
+  .mask {
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255, 0, 0.4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+  }
+
+  .cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.glass {
+  width: 525px;
+  height: 525px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(102%);
+  overflow: hidden;
+  border: 1px solid #40a9ff;
+  z-index: 99;
+
+  .glassImg {
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+}
+
+.leftIcon,
+.rightIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 42px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.leftIcon {
+  left: -37px;
+}
+
+.rightIcon {
+  right: -37px;
+}
+
+.listSlider {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.box {
+  position: relative;
+  height: 54px;
+  padding: 0 4px;
+  box-sizing: border-box;
+
+
+  .listImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &.hoverd {
+      border: 2px solid #40a9ff;
+    }
+  }
+}
