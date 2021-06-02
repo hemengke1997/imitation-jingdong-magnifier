@@ -8,7 +8,7 @@ https://item.jd.com/100014348492.html
 
 ## 线上地址
 
-https://hemengke1997.github.io/imitation-jingdong-magnifier/
+https://hemengke1997.github.io/react-magnifier/
 
 
 ## Getting Started
